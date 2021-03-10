@@ -5,9 +5,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.math.BigDecimal;
+
 class GoedeDoelTest {
 	private static final String NAAM = "CliniClowns";
 	private GoedeDoel doel;
+
 
 	@BeforeEach
 	void beforeEach() {

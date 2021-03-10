@@ -5,6 +5,8 @@ import java.math.BigDecimal;
 public class GoedeDoel {
 	private final String naam;
 	private BigDecimal opgebracht;
+	private BigDecimal opbrengst = BigDecimal.ZERO;
+
 
 	public GoedeDoel(String naam) {
 		this.naam = naam;
@@ -16,5 +18,9 @@ public class GoedeDoel {
 
 	public BigDecimal getOpgebracht() {
 		return opgebracht;
+	}
+
+	public BigDecimal getOpbrengst() {
+		return opbrengst;
 	}
 }
